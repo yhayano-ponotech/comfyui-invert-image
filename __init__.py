@@ -1,9 +1,7 @@
 from .invert_image_node import InvertImageNode
-from .color_palette_node import ColorPaletteExtractor
 
 NODE_CLASS_MAPPINGS = {
-    "Invert Image Node Sample": InvertImageNode,
-    "Color Palette Extractor": ColorPaletteExtractor
+    "Invert Image Node Sample": InvertImageNode
 }
 
 WEB_DIRECTORY = "./js"
